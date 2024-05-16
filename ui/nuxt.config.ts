@@ -17,5 +17,17 @@ export default defineNuxtConfig({
     database: true,
     // blob: true,
     kv: true
+  },
+  ogImage: {
+    enabled: false
+  },
+  schemaOrg: {
+    enabled: false
+  },
+  linkChecker: {
+    enabled: false
+  },
+  seoExperiments: {
+    enabled: false
   }
 })
