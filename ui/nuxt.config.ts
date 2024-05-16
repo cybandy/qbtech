@@ -12,5 +12,10 @@ export default defineNuxtConfig({
       cert: './ssl/qbtech.local.pem'
     }
   },
-  modules: ["@nuxt/ui", "@nuxthub/core", "@nuxtjs/seo", "@nuxt/fonts"]
+  modules: ["@nuxt/ui", "@nuxthub/core", "@nuxtjs/seo", "@nuxt/fonts"],
+  hub: {
+    database: true,
+    // blob: true,
+    kv: true
+  }
 })
