@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  css: [
+    '~/assets/css/main.css'
+  ],
   devServer: {
     port: 443,
     host: 'qbtech.local',
@@ -9,5 +12,5 @@ export default defineNuxtConfig({
       cert: './ssl/qbtech.local.pem'
     }
   },
-  modules: ["@nuxt/ui", "@nuxthub/core", "@nuxtjs/seo"]
+  modules: ["@nuxt/ui", "@nuxthub/core", "@nuxtjs/seo", "@nuxt/fonts"]
 })

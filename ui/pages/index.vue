@@ -2,10 +2,14 @@
 useHead({
     title: 'Coming Soon'
 })
+
+definePageMeta({
+    layout: 'coming-soon'
+})
 </script>
 
 <template>
     <div>
-        coming soon
+
     </div>
 </template>

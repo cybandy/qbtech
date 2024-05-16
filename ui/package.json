@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/fonts": "^0.7.0",
     "@nuxt/ui": "^2.16.0",
     "@nuxthub/core": "^0.5.17",
     "@nuxtjs/seo": "2.0.0-rc.10",
